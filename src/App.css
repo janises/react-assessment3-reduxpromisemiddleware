@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+*{
+  list-style: none;
+}
+
+.task-container {
+  display: flex;
+  justify-content: center;
+}
+
+.task {
+  padding-right: 10px;
+}
+
+.complete {
+  display: flex;
+  justify-content: center;
+}
+
+.false{
+  text-decoration: none;
+}
+
+.true {
+  text-decoration: line-through;
+}
